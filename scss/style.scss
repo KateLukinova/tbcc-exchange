@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'Golos-Regular';
+  src: url('../fonts/Golos-Regular.eot');
+  src:
+          url('../fonts/Golos-Regular.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/Golos-Regular.woff2') format('woff2'),
+          url('../fonts/Golos-Regular.woff') format('woff'),
+          url('../fonts/Golos-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos-Medium';
+  src: url('../fonts/Golos-Medium.eot');
+  src:
+          url('../fonts/Golos-Medium.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/Golos-Medium.woff2') format('woff2'),
+          url('../fonts/Golos-Medium.woff') format('woff'),
+          url('../fonts/Golos-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/Golos-Black';
+  src: url('../fonts/Golos-Black.eot');
+  src:
+          url('../fonts/Golos-Black.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/Golos-Black.woff2') format('woff2'),
+          url('../fonts/Golos-Black.woff') format('woff'),
+          url('../fonts/Golos-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  font-family: "Golos-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: white;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+h1 {
+  font-family: 'Golos-Regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  max-width: 400px;
+  @media (max-width: 768px) {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+p {
+  font-family: 'Golos-Regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+
+.gradient-color {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#070E1E), to(#0F243F));
+  background: -o-linear-gradient(top, #070E1E 0%, #0F243F 100%);
+  background: linear-gradient(180deg, #070E1E 0%, #0F243F 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: 768px) {
+    padding: 10px 0;
+  }
+}
+
+.logo {
+  @media (max-width: 768px) {
+    svg {
+      max-width: 180px;
+    }
+  }
+}
+
+.center-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 120px;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
+}
+
+.soc-box {
+  min-width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  a {
+    margin-right: 22px;
+
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+    svg {
+      width: 24px;
+    }
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 460px;
+  margin-bottom: 60px;
+  @media (max-width: 768px) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    &.input {
+      width: calc(100% - 160px);
+      height: 44px;
+      margin-right: 10px;
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-right: 0;
+      }
+
+      input {
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid #DFE4EB;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 13px 20px;
+        &::-webkit-input-placeholder {
+          font-family: 'Golos', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ACACAC;
+        }
+        &::-moz-placeholder {
+          font-family: 'Golos', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ACACAC;
+        }
+        &:-ms-input-placeholder {
+          font-family: 'Golos', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ACACAC;
+        }
+        &::-ms-input-placeholder {
+          font-family: 'Golos', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ACACAC;
+        }
+        &::placeholder {
+          font-family: 'Golos', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ACACAC;
+        }
+      }
+    }
+  }
+  .form-button {
+    width: 150px;
+    height: 44px;
+    background: #5CC76E;
+    border: 1px solid #5CC76E;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Golos-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 0;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+.img {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  img {
+    width: 110%;
+    -webkit-transform: translateX(3%);
+    -ms-transform: translateX(3%);
+    transform: translateX(3%);
+  }
+}
