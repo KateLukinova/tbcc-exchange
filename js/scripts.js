@@ -13,4 +13,7 @@ $( document ).ready(function() {
             }
         });
     });
+
+    $('#lang-select').select2()
+
 });
