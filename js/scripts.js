@@ -15,5 +15,6 @@ $( document ).ready(function() {
     });
 
     $('#lang-select').select2()
+    $('#lang-select-footer').select2()
 
 });
