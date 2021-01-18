@@ -1,5 +1,14 @@
 
 $( document ).ready(function() {
+
+    $(".menu-icon").click(function () {
+        $('.head-container').addClass('show')
+    });
+
+    $(".menu-close").click(function () {
+        $('.head-container').removeClass('show')
+    });
+
     $('.contact-form').on('submit', function (e) {
 
         e.preventDefault();
