@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Contacts</title>
+    <title>Compliance</title>
   </head>
 <body>
 
@@ -114,30 +114,50 @@
 <section class="container-fluid gradient-color">
     <div class="contacts-page">
         <div class="center-block">
-            <h2 class="mb-2" id="contactsCaptionOne">Contact us</h2>
-            <p id="contactsPBlockOne"> Please feel free to ask questions if you have them or write to us if you have any proposals. </p>
+            <h2 class="mb-2">Send a request</h2>
+            <p>If you want yo make a compliance request - please fill in the form</p>
             <form action="#" class="contact-form">
                 <div class="form-group">
-                    <label for="contact-form-f-name" class="label--hidden">Name</label>
-                    <input type="text" id="contact-form-f-name">
+                    <label for="compliance-form-email" class="label--hidden">Your email address*</label>
+                    <input type="email" id="compliance-form-email">
                 </div>
 
                 <div class="form-group">
-                    <label for="contact-form-email" class="label--hidden">Email</label>
-                    <input type="email" id="contact-form-email">
+                    <label for="compliance-type" class="label--hidden">Type of request*</label>
+                    <input type="text" id="compliance-type">
                 </div>
 
                 <div class="form-group">
-                    <label for="contact-form-topic" class="label--hidden">Topic</label>
-                    <input type="text" id="contact-form-topic">
+                    <label for="ex-email" class="label--hidden">TBCC Exchange Account Email</label>
+                    <input type="email" id="ex-email">
+                    <div class="hint">Please enter the email associated to your TBCC Exchange account if it is different to the email you entered in the field above</div>
                 </div>
 
                 <div class="form-group">
-                    <label for="contact-form-message" class="label--hidden">Write your message</label>
-                    <textarea id="contact-form-message"></textarea>
-                    <div class="hint">Type your message in the field below</div>
+                    <label for="subject" class="label--hidden">Subject*</label>
+                    <select name="subject" id="subject">
+                        <option value="Yes" selected>Yes</option>
+                        <option value="No">No</option>
+                    </select>
                 </div>
-                <button type="submit" class="btn mt-5" id="contacts-button">Send</button>
+
+                <div class="form-group">
+                    <label for="description" class="label--hidden">
+                        Description
+                    </label>
+                    <textarea type="email" id="description"></textarea>
+                    <div class="hint">Please enter the details of your request. A member of our support staff will respond to your request as soon as possible. Please include all relevant information including account name, transaction IDs, and screenshots of the issue where possible</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="attachments" class="label--hidden">Attachments(optional)</label>
+                    <div class="file-upload">
+                        <input type="file" id="attachments" class="upload" />
+                        <span><i>Add file</i> or drop files here</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn mt-2">Send</button>
             </form>
         </div>
     </div>
