@@ -80,16 +80,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#" class="menu-item">Markets</a>
+                        <a href="#" class="menu-item" id="menuItemOne">Markets</a>
                     </li>
                     <li>
-                        <a href="listing.html" class="menu-item">Listing</a>
+                        <a href="listing.html" class="menu-item" id="menuItemTwo">Listing</a>
                     </li>
                     <li>
-                        <a href="team.html" class="menu-item">Team</a>
+                        <a href="team.html" class="menu-item" id="menuItemThree">Team</a>
                     </li>
                     <li>
-                        <a href="contacts.html" class="menu-item">Contact</a>
+                        <a href="contacts.html" class="menu-item" id="menuItemFour">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -97,8 +97,8 @@
 
         <div class="right-column">
             <div class="register-box">
-                <a href="log-in.html">Sign in</a>
-                <a href="sign-in.html" class="btn">Register</a>
+                <a href="log-in.html" id="menuItemFive">Sign in</a>
+                <a href="sign-in.html" class="btn" id="menuItemSix">Register</a>
             </div>
             <select name="lang" class="lang-select lang" id="lang-select">
                 <option value="RU">Russian</option>
@@ -114,27 +114,27 @@
 <section class="container-fluid gradient-color">
     <div class="contacts-page">
         <div class="center-block">
-            <h2 class="mb-2">Send a request</h2>
-            <p>If you want yo make a compliance request - please fill in the form</p>
+            <h2 class="mb-2" id="complianceH2One">Send a request</h2>
+            <p id="compliancePBlockOne">If you want yo make a compliance request - please fill in the form</p>
             <form action="#" class="contact-form">
                 <div class="form-group">
-                    <label for="compliance-form-email" class="label--hidden">Your email address*</label>
+                    <label for="compliance-form-email" class="label--hidden" id="complianceLabelOne">Your email address*</label>
                     <input type="email" id="compliance-form-email">
                 </div>
 
                 <div class="form-group">
-                    <label for="compliance-type" class="label--hidden">Type of request*</label>
+                    <label for="compliance-type" class="label--hidden" id="complianceLabelTwo">Type of request*</label>
                     <input type="text" id="compliance-type">
                 </div>
 
                 <div class="form-group">
-                    <label for="ex-email" class="label--hidden">TBCC Exchange Account Email</label>
+                    <label for="ex-email" class="label--hidden" id="complianceLabelThree">TBCC Exchange Account Email</label>
                     <input type="email" id="ex-email">
-                    <div class="hint">Please enter the email associated to your TBCC Exchange account if it is different to the email you entered in the field above</div>
+                    <div class="hint" id="complianceHintOne">Please enter the email associated to your TBCC Exchange account if it is different to the email you entered in the field above</div>
                 </div>
 
                 <div class="form-group">
-                    <label for="subject" class="label--hidden">Subject*</label>
+                    <label for="subject" class="label--hidden" id="complianceLabelFour">Subject*</label>
                     <select name="subject" id="subject">
                         <option value="Yes" selected>Yes</option>
                         <option value="No">No</option>
@@ -142,22 +142,22 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="description" class="label--hidden">
+                    <label for="description" class="label--hidden" id="complianceLabelFive">
                         Description
                     </label>
                     <textarea type="email" id="description"></textarea>
-                    <div class="hint">Please enter the details of your request. A member of our support staff will respond to your request as soon as possible. Please include all relevant information including account name, transaction IDs, and screenshots of the issue where possible</div>
+                    <div class="hint" id="complianceHintTwo">Please enter the details of your request. A member of our support staff will respond to your request as soon as possible. Please include all relevant information including account name, transaction IDs, and screenshots of the issue where possible</div>
                 </div>
 
                 <div class="form-group">
-                    <label for="attachments" class="label--hidden">Attachments(optional)</label>
+                    <label for="attachments" class="label--hidden" id="complianceLabelSix">Attachments(optional)</label>
                     <div class="file-upload">
                         <input type="file" id="attachments" class="upload" />
-                        <span><i>Add file</i> or drop files here</span>
+                        <span><i id="complianceHintThree">Add file or drop files here</i></span>
                     </div>
                 </div>
 
-                <button type="submit" class="btn mt-2">Send</button>
+                <button type="submit" class="btn mt-2" id="complianceButton">Send</button>
             </form>
         </div>
     </div>
@@ -166,12 +166,12 @@
 <footer>
     <div class="footer-content">
         <div class="center-block">
-            <h2>Buy and trade leading cryptocurrencies on an innovative high-tech next-gen exchange.</h2>
+            <h2 id="footerH2">Buy and trade leading cryptocurrencies on an innovative high-tech next-gen exchange.</h2>
             <div class="button-box">
-                <a href="#" class="btn">
+                <a href="#" class="btn" id="buttonTextTwo">
                     Register Free
                 </a>
-                <a href="#" class="btn transparent">
+                <a href="#" class="btn transparent" id="buttonTextThree">
                     Trade Now
                 </a>
             </div>
@@ -205,9 +205,9 @@
 
                     </div>
                 </a>
-                <p>TBCC Exchange is a leading cryptocurrency trading platform in the world with the largest liquidity pool powered by Binance Cloud.
+                <p id="footerPOne">TBCC Exchange is a leading cryptocurrency trading platform in the world with the largest liquidity pool powered by Binance Cloud.
                 </p>
-                <p>
+                <p id="footerPTwo">
                     Email : <a href="mailto:support@tbcc.exchange">support@tbcc.exchange</a><br>
                     © TBCC Labs Copyright 2020
                 </p>
@@ -225,61 +225,61 @@
             </div>
             <div class="footer-nav">
                 <div class="sub-menu-item">
-                    <a href="#" class="footer-link caption">
+                    <a href="#" class="footer-link caption" id="footerItemOne">
                         About
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemTwo">
                         Announcements
                     </a>
-                    <a href="contacts.html" class="footer-link">
+                    <a href="contacts.html" class="footer-link" id="footerItemThree">
                         Contacts
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemFour">
                         Fees
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemFive">
                         Terms and Conditions
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemSix">
                         Privacy Policy
                     </a>
                 </div>
                 <div class="sub-menu-item">
-                    <a href="#" class="footer-link caption">
+                    <a href="#" class="footer-link caption" id="footerItemSeven">
                         Product
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemEight">
                         Exchange
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemNine">
                         Markets
                     </a>
-                    <a href="referal.html" class="footer-link">
+                    <a href="referal.html" class="footer-link" id="footerItemTen">
                         Referal Program
                     </a>
-                    <a href="token.html" class="footer-link">
+                    <a href="token.html" class="footer-link" id="footerItemEleven">
                         TBCC token
                     </a>
                 </div>
                 <div class="sub-menu-item">
-                    <a href="#" class="footer-link caption">
+                    <a href="#" class="footer-link caption" id="footerItemTwelve">
                         Support
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemThirteen">
                         FAQ
                     </a>
-                    <a href="#" class="footer-link">
+                    <a href="#" class="footer-link" id="footerItemFourteen">
                         API documantion
                     </a>
-                    <a href="listing.html" class="footer-link">
+                    <a href="listing.html" class="footer-link" id="footerItemFifteen">
                         Listing Application
                     </a>
-                    <a href="compliance.html" class="footer-link">
+                    <a href="compliance.html" class="footer-link" id="footerItemSixteen">
                         Compliance Requests
                     </a>
                 </div>
                 <div class="sub-menu-item">
-                    <a href="#" class="footer-link caption">
+                    <a href="#" class="footer-link caption" id="footerItemSeventeen">
                         Community
                     </a>
                     <a href="#" class="footer-link">

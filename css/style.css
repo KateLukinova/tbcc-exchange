@@ -1565,8 +1565,7 @@ footer {
       width: 22%;
       text-align: center;
       min-width: 160px;
-      border-left: 1px solid #8C90A5;
-      white-space: nowrap; }
+      border-left: 1px solid #8C90A5; }
       .token-table .tr .td:nth-child(1) {
         width: 10%;
         min-width: 40px;
@@ -2050,7 +2049,10 @@ form.main-form {
       height: 44px;
       padding: 10px 20px;
       -webkit-box-sizing: border-box;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      border: none;
+      box-shadow: none;
+      outline: none; }
       form.main-form .form-group input::-webkit-input-placeholder {
         font-family: 'Golos-Regular', sans-serif;
         font-style: normal;

@@ -95,6 +95,56 @@ $( document ).ready(function() {
             listingLabelEight: 'What is the token symbol? *',
             listingLabelNine: 'What is the name of your token?',
             listingButton: 'Next',
+            complianceH2One: 'Send a request',
+            compliancePBlockOne: 'If you want yo make a compliance request - please fill in the form',
+            complianceLabelOne: 'Your email address*',
+            complianceLabelTwo: 'Type of request*',
+            complianceLabelThree: 'TBCC Exchange Account Email',
+            complianceLabelFour: 'Subject*',
+            complianceLabelFive: 'Description*',
+            complianceLabelSix: 'Attachments(optional)',
+            complianceHintOne: 'Please enter the email associated to your TBCC Exchange account if it is different to the email you entered in the field above',
+            complianceHintTwo: 'Please enter the details of your request. A member of our support staff will respond to your request as soon as possible. Please include all relevant information including account name, transaction IDs, and screenshots of the issue where possible.',
+            complianceHintThree: ' Add file or drop files here',
+            complianceButton: 'Send',
+            tokenH2One: 'TBCC Token Utility',
+            tokenPBlockOne: 'Total and Circulating Supply - 1 000 m TBCC Tokens',
+            tokenH2Two: 'TBCC Token Contract',
+            tokenH2Three: 'Return of commission',
+            tokenPBlockTwo: 'Holders of TBCC tokens receive discounts on trading fees according to the tiered structure outlined here. Please note that TBCC Exchange reserves the right to update the information below at any time in the future at the discretion of the team. Therefore, read it carefully and update it periodically to be sure that no changes have been made.',
+            tokenPBlockThree: 'To receive discounts on trading commissions or unlock platform improvements, users must lock the required amount of TBCC token in their TBCC Exchange wallet for a period of 45 days or more.',
+            tokenPBlockFour: 'After the 45-day lockout period, users will receive trading fee rebates in the form of credits to their TBCC Exchange wallet in the same currency in which the trading fees were originally charged.',
+            tokenPBlockFive: 'Trading commission refunds will be paid every 45 days depending on the date of the user ban period.',
+            tokenTdOne: 'Tier',
+            tokenTdTwo: '>45 Day Locking Balance',
+            tokenTdThree: 'Trading Fee',
+            tokenTdFour: 'Return to User',
+            tokenTdFive: 'Trading Fee after Rebate',
+            referralH2One: 'Earn bonuses',
+            referralPBlockOne: 'Just invite a friend to register and get your token reward. More detailed rules',
+            referralH3One: 'How to get bonuses?',
+            referralH4One: ' Create a link in your personal account',
+            referralPBlockTwo: 'Register on our exchange and create a link to invite a friend.',
+            referralH4Two: 'Send the link to a friend',
+            referralPBlockThree: 'You can send unlimited invite links to your friends',
+            referralH4Three: 'Get your bonus',
+            referralPBlockFour: 'As soon as your friend registers on our exchange and completes his first transaction, you will receive your bonus',
+            referralH3Two: 'Invite a friend now',
+            referralPBlockFive: 'Generate your unique link to invite friends via message or email. You can also simply send the invitation code in any messenger by copying the link.',
+            referralPBlockSix: 'Your personal ID',
+            referralSpanOne: 'Default Link',
+            referralSpanTwo: 'Note',
+            referralLabelOne: 'You Receive:',
+            referralLabelTwo: 'Friends Receive:',
+            referralButton: 'Share now',
+            contactsH2One: 'Contact us',
+            contactsPBlockOne: 'Please feel free to ask questions if you have them or write to us if you have any proposals',
+            contactsLabelOne: 'Name',
+            contactsLabelTwo: 'Email',
+            contactsLabelThree: 'Topic',
+            contactsLabelFour: 'Text',
+            contactsHintOne: 'Type your message in the field below',
+            contactsButton: 'Send ',
         },
         RU: {
             menuItemOne: 'Рынки',
@@ -163,6 +213,56 @@ $( document ).ready(function() {
             listingLabelEight: 'Какой символ токена?*',
             listingLabelNine: 'Как называется ваш токен?',
             listingButton: 'Дальше',
+            complianceH2One: 'Отправить запрос',
+            compliancePBlockOne: 'Если вы хотите сделать запрос о соответствии - заполните форму',
+            complianceLabelOne: 'Адерс вашей электронной почты*',
+            complianceLabelTwo: 'Тип запроса*',
+            complianceLabelThree: 'Электронная почта учетной записи TBCC Exchange',
+            complianceLabelFour: 'Тема*',
+            complianceLabelFive: 'Описание*',
+            complianceLabelSix: 'Вложения (необязательно)',
+            complianceHintOne: 'Пожалуйста, введите адрес электронной почты, связанный с вашей учетной записью TBCC Exchange, если он отличается от адреса электронной почты, который вы ввели в поле выше',
+            complianceHintTwo: 'Пожалуйста, введите детали вашего запроса. Сотрудник нашей службы поддержки ответит на ваш запрос в ближайшее время. По возможности укажите всю необходимую информацию, включая имя учетной записи, идентификаторы транзакций и скриншоты проблемы.',
+            complianceHintThree: 'Добавьте файл или перетащите файлы сюда',
+            complianceButton: 'Send',
+            tokenH2One: 'Полезность токенов TBCC',
+            tokenPBlockOne: 'Общее и находящееся в обращении предложение - 1000 млн токенов TBCC',
+            tokenH2Two: 'Контракт токена TBCC',
+            tokenH2Three: 'Возврат комиссии',
+            tokenPBlockTwo: 'Держатели токенов TBCC получают скидки на торговые сборы в соответствии с многоуровневой структурой, описанной здесь. Обратите внимание, что TBCC Exchange оставляет за собой право обновлять информацию ниже в любое время в будущем по усмотрению команды. Поэтому внимательно прочтите его и периодически обновляйте, чтобы быть уверенным, что никаких изменений не было.',
+            tokenPBlockThree: 'Чтобы получить скидки на торговые комиссии или разблокировать улучшения платформы, пользователи должны заблокировать необходимое количество токенов TBCC в своем кошельке TBCC Exchange на период 45 дней или более.',
+            tokenPBlockFour: 'После 45-дневного периода блокировки пользователи будут получать скидки на торговые комиссии в виде кредитов на свой кошелек TBCC Exchange в той же валюте, в которой изначально взимались торговые сборы.',
+            tokenPBlockFive: 'Возврат комиссии за торговлю будет выплачиваться каждые 45 дней в зависимости от даты периода блокировки пользователя.',
+            tokenTdOne: 'Уровень',
+            tokenTdTwo: '> 45 дней блокировки баланса',
+            tokenTdThree: 'Комиссия за торговлю',
+            tokenTdFour: 'Возврат пользователю',
+            tokenTdFive: 'Комиссия за торговлю после бонуса',
+            referralH2One: 'Зарабатывайте бонусы',
+            referralPBlockOne: 'Просто пригласите друга зарегистрироваться и получите ваше вознаграждение токенами',
+            referralH3One: 'Как получить бонусы? ',
+            referralH4One: 'Создайте ссылку в личном кабинете. ',
+            referralPBlockTwo: 'Зарегистрируйтесь на нашей бирже и создайте ссылку для приглашения друга',
+            referralH4Two: 'Отправьте ссылку другу.',
+            referralPBlockThree: 'Вы можете отправить неограниченное количество ссылок-приглашений вашим друзьям.',
+            referralH4Three: 'Получите ваш бонус.',
+            referralPBlockFour: 'Как только ваш друг зарегистрируется на нашей бирже и совершит свою первую операцию - вы получите ваш бонус.',
+            referralH3Two: 'Пригласите друга сейчас',
+            referralPBlockFive: 'Сгенерируйте свою уникальную ссылку, чтобы пригласить друзей в сообщении или по электронной почте. Код приглашения также можно просто отправить в любом мессенджере, скопировав ссылку.',
+            referralPBlockSix: 'Ваш личный ID',
+            referralSpanOne: 'Ссылка по умолчанию',
+            referralSpanTwo: 'Запись',
+            referralLabelOne: 'Вы получаете:',
+            referralLabelTwo: 'Ваш друг получает:',
+            referralButton: 'Поделиться сейчас',
+            contactsH2One: 'Свяжитесь с нами',
+            contactsPBlockOne: 'Не стесняйтесь задавать вопросы, если они у вас есть, или писать нам, если у вас есть предложения',
+            contactsLabelOne: 'Имя',
+            contactsLabelTwo: 'Адрес электронной почты',
+            contactsLabelThree: 'Тема',
+            contactsLabelFour: 'Текст',
+            contactsHintOne: 'Напишите ваше сообщение в графе выше',
+            contactsButton: 'Отправить',
         },
         CH: {
 
@@ -263,4 +363,53 @@ function setLanguage(dictionary, language)
     $('#listingLabelEight').text(dictionary[language].listingLabelEight);
     $('#listingLabelNine').text(dictionary[language].listingLabelNine);
     $('#listingButton').text(dictionary[language].listingButton);
+    $('#complianceH2One').text(dictionary[language].complianceH2One);
+    $('#compliancePBlockOne').text(dictionary[language].compliancePBlockOne);
+    $('#complianceLabelOne').text(dictionary[language].complianceLabelOne);
+    $('#complianceLabelTwo').text(dictionary[language].complianceLabelTwo);
+    $('#complianceLabelThree').text(dictionary[language].complianceLabelThree);
+    $('#complianceLabelFour').text(dictionary[language].complianceLabelFour);
+    $('#complianceLabelFive').text(dictionary[language].complianceLabelFive);
+    $('#complianceLabelSix').text(dictionary[language].complianceLabelSix);
+    $('#complianceHintOne').text(dictionary[language].complianceHintOne);
+    $('#complianceHintTwo').text(dictionary[language].complianceHintTwo);
+    $('#complianceHintThree').text(dictionary[language].complianceHintThree);
+    $('#tokenH2One').text(dictionary[language].tokenH2One);
+    $('#tokenPBlockOne').text(dictionary[language].tokenPBlockOne);
+    $('#tokenH2Two').text(dictionary[language].tokenH2Two);
+    $('#tokenH2Three').text(dictionary[language].tokenH2Three);
+    $('#tokenPBlockTwo').text(dictionary[language].tokenPBlockTwo);
+    $('#tokenPBlockThree').text(dictionary[language].tokenPBlockThree);
+    $('#tokenPBlockFour').text(dictionary[language].tokenPBlockFour);
+    $('#tokenPBlockFive').text(dictionary[language].tokenPBlockFive);
+    $('#tokenTdOne').text(dictionary[language].tokenTdOne);
+    $('#tokenTdTwo').text(dictionary[language].tokenTdTwo);
+    $('#tokenTdThree').text(dictionary[language].tokenTdThree);
+    $('#tokenTdFour').text(dictionary[language].tokenTdFour);
+    $('#tokenTdFive').text(dictionary[language].tokenTdFive);
+    $('#referralH2One').text(dictionary[language].referralH2One);
+    $('#referralPBlockOne').text(dictionary[language].referralPBlockOne);
+    $('#referralH3One').text(dictionary[language].referralH3One);
+    $('#referralH4One').text(dictionary[language].referralH4One);
+    $('#referralPBlockTwo').text(dictionary[language].referralPBlockTwo);
+    $('#referralH4Two').text(dictionary[language].referralH4Two);
+    $('#referralPBlockThree').text(dictionary[language].referralPBlockThree);
+    $('#referralH4Three').text(dictionary[language].referralH4Three);
+    $('#referralPBlockFour').text(dictionary[language].referralPBlockFour);
+    $('#referralH3Two').text(dictionary[language].referralH3Two);
+    $('#referralPBlockFive').text(dictionary[language].referralPBlockFive);
+    $('#referralPBlockSix').text(dictionary[language].referralPBlockSix);
+    $('#referralSpanOne').text(dictionary[language].referralSpanOne);
+    $('#referralSpanTwo').text(dictionary[language].referralSpanTwo);
+    $('#referralLabelOne').text(dictionary[language].referralLabelOne);
+    $('#referralLabelTwo').text(dictionary[language].referralLabelTwo);
+    $('#referralButton').text(dictionary[language].referralButton);
+    $('#contactsH2One').text(dictionary[language].contactsH2One);
+    $('#contactsPBlockOne').text(dictionary[language].contactsPBlockOne);
+    $('#contactsLabelOne').text(dictionary[language].contactsLabelOne);
+    $('#contactsLabelTwo').text(dictionary[language].contactsLabelTwo);
+    $('#contactsLabelThree').text(dictionary[language].contactsLabelThree);
+    $('#contactsLabelFour').text(dictionary[language].contactsLabelFour);
+    $('#contactsHintOne').text(dictionary[language].contactsHintOne);
+    $('#contacts-button').text(dictionary[language].contactsButton);
 }

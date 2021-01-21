@@ -1906,7 +1906,6 @@ footer {
       text-align: center;
       min-width: 160px;
       border-left: 1px solid #8C90A5;
-      white-space: nowrap;
 
       &:nth-child(1) {
         width: 10%;
@@ -2476,6 +2475,9 @@ form.main-form {
       padding: 10px 20px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
+      border: none;
+      box-shadow: none;
+      outline: none;
 
       &::-webkit-input-placeholder {
         font-family: 'Golos-Regular', sans-serif;
